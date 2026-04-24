@@ -75,11 +75,11 @@ Step-by-step:
 
 ### 1. Install dependencies
 
-bash pip install -r requirements.txt 
+```pip install -r requirements.txt``` 
 
 ### 2. Run the tool
 
-bash python main.py 
+```python main.py``` 
 
 ---
 
