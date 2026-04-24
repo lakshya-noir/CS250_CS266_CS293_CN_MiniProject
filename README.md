@@ -39,18 +39,17 @@ This project demonstrates how publicly exposed server information can be collect
 │   ├── banner.py                # Banner grabbing logic
 │   ├── identifier.py            # Server identification logic
 │   ├── ssl_analyzer.py          # SSL/TLS inspection
-│   └── latency.py               # Latency measurement
 │
 ├── utils/
-│   ├── resolver.py              # DNS resolution
-│   └── helpers.py               # Utility functions
+│   └── utils.py                 # Utility functions
 │
 ├── visualization/
-│   ├── accuracy_plot.py         # Accuracy graph generation
-│   └── performance_plot.py      # Performance graph generation
+│   ├── accuracy_vs_servers.py   # Accuracy graph generation
+│   └── servers_vs_scantime.py   # Performance graph generation
 │
-├── outputs/
-│   └── *.png                    # Generated graphs
+├── Graphs/
+│   └── accuracy_vs_servers.png  # Generated graph 1
+│   └── servers_vs_scantime.png  # Generated graph 2
 │
 └── requirements.txt             # Python dependencies
 ```
